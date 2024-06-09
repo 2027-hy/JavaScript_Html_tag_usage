@@ -23,6 +23,7 @@
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+  color: rgb(212, 0, 255);
 }
 
 .description p {
@@ -39,11 +40,28 @@
   font-family: var(--font-mono);
 }
 
+.link {
+  font-weight: 700;
+  font-family: var(--font-mono);
+  color: rgb(212, 0, 255);
+}
+
+
 .grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(25%, auto));
   max-width: var(--max-width);
   width: 100%;
+}
+
+.framed{
+  display: inline-block;
+  padding: 1rem 1.2rem;             /* 内側の余白 */
+  border: 2px solid rgb(0, 0, 0);   /* 枠線の太さと色 */
+  border-radius: 5px;        /* 角の丸み */
+  text-decoration: none;     /* 下線を消す */
+  color: rgb(0, 0, 0);              /* テキストの色 */
+  background-color: rgba(245, 245, 245, 0);/* 背景色 */
 }
 
 .card {
@@ -161,6 +179,7 @@
 
   .description a {
     padding: 1rem;
+    color: rgb(212, 0, 255);
   }
 
   .description p,
