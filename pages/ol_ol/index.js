@@ -23,10 +23,10 @@ export default function Ol_ol(){
                 <br />
                 <ol type="1" start="10">
                     <li>
-                    箇条書き1個目「始めの数字指定」（type属性 : &quot;1&ldquo; start=&quot;10&ldquo;（始めにしたい数字）"）
+                    箇条書き1個目「始めの数字指定」（type属性 : &quot;1&ldquo; start=&quot;10&ldquo;（始めにしたい数字））
                     </li>
                     <li>
-                    箇条書き2個目「始めの数字指定」（type属性 : &quot;1&ldquo; start=&quot;10&ldquo;（始めにしたい数字）"）
+                    箇条書き2個目「始めの数字指定」（type属性 : &quot;1&ldquo; start=&quot;10&ldquo;（始めにしたい数字））
                     </li>
                     <li>
                     箇条書き3個目「始めの数字指定」（type属性 : &quot;1&ldquo; start=&quot;10&ldquo;（始めにしたい数字）"）
