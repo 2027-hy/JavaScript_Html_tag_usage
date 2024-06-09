@@ -12,37 +12,37 @@ export default function Ul_ul(){
             <br/>
             <ul>
                 <li>
-                箇条書き1個目「・」塗りつぶしの円（type属性："disc"、デフォルトがこれ）
+                箇条書き1個目「・」塗りつぶしの円（type属性 : "disc"、デフォルトがこれ）
                 </li>
                 <li>
-                箇条書き2個目「・」塗りつぶしの円（type属性："disc"、デフォルトがこれ）
+                箇条書き2個目「・」塗りつぶしの円（type属性 : "disc"、デフォルトがこれ）
                 </li>
                 <li>
-                箇条書き3個目「・」塗りつぶしの円（type属性："disc"、デフォルトがこれ）
+                箇条書き3個目「・」塗りつぶしの円（type属性 : "disc"、デフォルトがこれ）
                 </li>
             </ul>
             <br/>
             <ul type="circle">
                 <li>
-                箇条書き1個目「〇」空の円（type属性："circle"）
+                箇条書き1個目「○」空の円（type属性 : "circle"）
                 </li>
                 <li>
-                箇条書き2個目「〇」空の円（type属性："circle"）
+                箇条書き2個目「○」空の円（type属性 : "circle"）
                 </li>
                 <li>
-                箇条書き3個目「〇」空の円（type属性："circle"）
+                箇条書き3個目「○」空の円（type属性 : "circle"）
                 </li>
             </ul>
             <br/>
             <ul type="square">
                 <li>
-                箇条書き1個目「■」四角形（type属性："square"）
+                箇条書き1個目「■」四角形（type属性 : "square"）
                 </li>
                 <li>
-                箇条書き2個目「■」四角形（type属性："square"）
+                箇条書き2個目「■」四角形（type属性 : "square"）
                 </li>
                 <li>
-                箇条書き3個目「■」四角形（type属性："square"）
+                箇条書き3個目「■」四角形（type属性 : "square"）
                 </li>
             </ul>
             </div>
