@@ -1,9 +1,9 @@
 import styles from "../../styles/Home.module.css";
 
-export default function ul_ul(){
+export default function Ul_ul(){
     return (
         <main className ={styles.main}>
-            <h1>＜ul＞＜／ul＞のページ</h1>
+            <h1>&lt;ul&gt;&lt;ul&gt;のページ</h1>
             <p>「ul」は順序なしリスト（Unordered List）を定義する。
                 <br></br>
                 type属性を指定することで、各項目は円形または四角形のマークでマークされる。

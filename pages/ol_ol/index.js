@@ -1,9 +1,9 @@
 import styles from "../../styles/Home.module.css";
 
-export default function ol_ol(){
+export default function Ol_ol(){
     return (
         <main className ={styles.main}>
-            <h1>＜ol＞＜／ol＞のページ</h1>
+            <h1>&lt;ol&gt;&lt;ol&gt;のページ</h1>
             <p>「ol」は順序付きリスト（Ordered List）を作成するための要素である。
                 type属性を指定することで、数字やアルファベットなどが使用されて、順序を表現できる。
             </p>

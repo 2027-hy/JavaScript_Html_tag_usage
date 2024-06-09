@@ -3,7 +3,7 @@ import styles from "../../styles/Home.module.css";
 export default function a_a(){
     return (
         <main className ={styles.main}>
-            <h1>＜ａ＞＜／ａ＞のページ</h1>
+            <h1>&lt;a&at;&gt;&llt;a&gt;のページ</h1>
             <p>「a」はハイパーリンク（Hyperlink）を作成するための要素である。
                 <br/>
                 ユーザーがクリックすると他の場所に移動したり、新しいページを開いたりするためのリンクを定義する。

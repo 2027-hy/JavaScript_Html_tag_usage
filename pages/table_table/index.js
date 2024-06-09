@@ -1,9 +1,9 @@
 import styles from "../../styles/Home.module.css";
 
-export default function table_table(){
+export default function Table_table(){
     return (
         <main className ={styles.main}>
-            <h1>＜table＞＜／table＞のページ</h1>
+            <h1>&lt;table&gt;&lt;table&gt;のページ</h1>
             <p>tableタグは、表を作成する際に使用しtrタグ、thタグ、tdタグと併せて使用する。
             </p>
             <ul>
@@ -31,11 +31,11 @@ export default function table_table(){
                 <br />
                 <li><strong>thタグ</strong>
                     <p>
-                        th」タグ「table header（テーブルヘッダー）」の略で、表のなかの見出しのセルとして使用する。
+                        「th」タグ「table header（テーブルヘッダー）」の略で、表のなかの見出しのセルとして使用する。
                     </p>
                 </li>
                 <br />
-                <li><strong>thタグ</strong>
+                <li><strong>tdタグ</strong>
                     <p>
                         「td」は「table data（テーブルデータ）」の略で、表のなかの見出し（th）に対するデータのセルとして使用する。
                     </p>
