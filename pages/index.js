@@ -11,33 +11,33 @@ export default function List(){
       <nav>
         <ul className ={styles.framed}>
           <li>
-            <a href="/h_h" className ={styles.link}>
+            <Link href="/h_h" className ={styles.link}>
             &lt;h&gt;&lt;/h&gt;のページ
-            </a>
+            </Link>
           </li>
 
           <li>
-            <a href="/a_a" className ={styles.link}>
+            <Link href="/a_a" className ={styles.link}>
             &lt;a&gt;&lt;/a&gt;のページ
-            </a>
+            </Link>
           </li>
 
           <li>
-            <a href="/ul_ul" className ={styles.link}>
+            <Link href="/ul_ul" className ={styles.link}>
             &lt;ul&gt;&lt;/ul&gt;のページ
-            </a>
+            </Link>
           </li>
 
           <li>
-            <a href="/ol_ol" className ={styles.link}>
+            <Link href="/ol_ol" className ={styles.link}>
             &lt;ol&gt;&lt;/ol&gt;のページ
-            </a>
+            </Link>
           </li>
         
           <li>
-            <a href="/table_table" className ={styles.link}>
+            <Link href="/table_table" className ={styles.link}>
             &lt;table&gt;&lt;table&gt;のページ
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
