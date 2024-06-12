@@ -40,7 +40,7 @@ export default function H_h({ codeContent }) {
                 <iframe className={styles.web} src="code/h_h/code.html" />
             </div>
             <div className={styles.description}>
-                <Link href="https://javasclipt-tag-usage.vercel.app">
+                <Link href="/">
                     [ホームへ戻る]
                 </Link>
             </div>

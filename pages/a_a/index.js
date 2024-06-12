@@ -45,7 +45,7 @@ export default function A_a({ codeContent }) {
                 <iframe className={styles.web} src="code/a_a/code.html" />
             </div>
             <div className={styles.description}>
-                <Link href="https://javasclipt-tag-usage.vercel.app">
+                <Link href="/">
                     [ホームへ戻る]
                 </Link>
             </div>

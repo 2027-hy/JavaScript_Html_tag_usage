@@ -101,7 +101,7 @@ export default function Table_table({ codeContent }) {
                 <iframe className={styles.web} src="code/table_table/code.html" />
             </div>
             <div className={styles.description}>
-                <Link href="https://javasclipt-tag-usage.vercel.app">
+                <Link href="/">
                     [ホームへ戻る]
                 </Link>
             </div>
