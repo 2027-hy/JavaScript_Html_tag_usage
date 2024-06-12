@@ -41,7 +41,7 @@ export default function H_h({ codeContent }) {
             </div>
             <div className={styles.description}>
                 <Link href="/">
-                    <a>[ホームへ戻る]</a>
+                    [ホームへ戻る]
                 </Link>
             </div>
         </main>

@@ -79,7 +79,7 @@ export default function Ul_ul({ codeContent }) {
             </div>
             <div className={styles.description}>
                 <Link href="/">
-                    <a>[ホームへ戻る]</a>
+                    [ホームへ戻る]
                 </Link>
             </div>
         </main>

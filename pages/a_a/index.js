@@ -33,12 +33,12 @@ export default function A_a({ codeContent }) {
                 <br />
                 ユーザーがクリックすると他の場所に移動したり、新しいページを開いたりするためのリンクを定義する。
             </p>
-            <a href="https://www.google.com/?hl=ja" target="_blank" className={styles.link}>
+            <Link href="https://www.google.com/?hl=ja" target="_blank" className={styles.link}>
                 Google
-            </a>
-            <a href="https://www.yahoo.co.jp/" target="_blank" className={styles.link}>
+            </Link>
+            <Link href="https://www.yahoo.co.jp/" target="_blank" className={styles.link}>
                 yahoo
-            </a>
+            </Link>
             <br />
             <button onClick={copyButton}>{copyStatus}</button>
             <div className={styles.iframeContainer}>
@@ -46,7 +46,7 @@ export default function A_a({ codeContent }) {
             </div>
             <div className={styles.description}>
                 <Link href="/">
-                    <a>[ホームへ戻る]</a>
+                    [ホームへ戻る]
                 </Link>
             </div>
         </main>
