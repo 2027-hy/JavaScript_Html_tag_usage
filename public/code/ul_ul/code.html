@@ -1,0 +1,74 @@
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../code.css">
+    <title>Code</title>
+</head>
+
+<body>
+    <div class="header">
+        <h2>このページのコード</h2>
+    </div>
+    <div>
+        <pre class="pre"><code>
+import styles from "../../styles/Home.module.css";
+export default function Ul_ul(){
+    return (
+        &lt;main className ={styles.main}&gt;
+            &lt;h1&gt;&amp;lt;ul&amp;gt;&amp;lt;ul&amp;gt;のページ&lt;/h1&gt;
+            &lt;p&gt;「ul」は順序なしリスト（Unordered List）を定義する。
+                &lt;br/&gt;
+                type属性を指定することで、各項目は円形または四角形のマークでマークされる。
+            &lt;/p&gt;
+            &lt;div&gt;
+            &lt;br/&gt;
+            &lt;ul&gt;
+                &lt;li&gt;
+                箇条書き1個目「・」塗りつぶしの円（type属性 : &quot;disc&ldquo;、デフォルトがこれ）
+                &lt;/li&gt;
+                &lt;li&gt;
+                箇条書き2個目「・」塗りつぶしの円（type属性 : &quot;disc&ldquo;、デフォルトがこれ）
+                &lt;/li&gt;
+                &lt;li&gt;
+                箇条書き3個目「・」塗りつぶしの円（type属性 : &quot;disc&ldquo;、デフォルトがこれ）
+                &lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;br/&gt;
+            &lt;ul type="circle"&gt;
+                &lt;li&gt;
+                箇条書き1個目「○」空の円（type属性 : &quot;circle&ldquo;）
+                &lt;/li&gt;
+                &lt;li&gt;
+                箇条書き2個目「○」空の円（type属性 : &quot;circle&ldquo;）
+                &lt;/li&gt;
+                &lt;li&gt;
+                箇条書き3個目「○」空の円（type属性 : &quot;circle&ldquo;）
+                &lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;br/&gt;
+            &lt;ul type="square"&gt;
+                &lt;li&gt;
+                箇条書き1個目「■」四角形（type属性 : &quot;square&ldquo;）
+                &lt;/li&gt;
+                &lt;li&gt;
+                箇条書き2個目「■」四角形（type属性 : &quot;square&ldquo;）
+                &lt;/li&gt;
+                &lt;li&gt;
+                箇条書き3個目「■」四角形（type属性 : &quot;square&ldquo;）
+                &lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;/div&gt;
+            &lt;div className ={styles.description}&gt;
+                &lt;a href="/"&gt;
+                [ホームへ戻る]
+                &lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/main&gt;    
+    );
+}
+                    </code></pre>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+
+.header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: darkgrey;
+  }
+   
+.main {
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+    min-height: 100vh;
+}
+  
+.framed{
+  width: 100%;
+  display: inline-block;
+  padding: 1rem 1.2rem;             /* 内側の余白 */
+  border: 2px solid rgb(0, 0, 0);   /* 枠線の太さと色 */
+  border-radius: 5px;        /* 角の丸み */
+  text-decoration: none;     /* 下線を消す */
+  color: rgb(0, 0, 0);              /* テキストの色 */
+  background-color: rgba(245, 245, 245, 0);/* 背景色 */
+}
+
+.pre {
+  top: 50px;
+  position: absolute   ;
+  width: 100%; /* 親要素に合わせて横幅を100%にする */
+  margin: 0;
+  padding: 0em;
+  background: #000000;
+  color: #fff;
+  overflow: auto; 
+  -webkit-overflow-scrolling: touch;
+  text-align: left;
+  white-space: pre-wrap; /* コードが画面に収まらなくなった場合に自動的に折り返す */
+}

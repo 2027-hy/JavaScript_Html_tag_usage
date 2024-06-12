@@ -1,31 +1,6 @@
-import fs from 'fs';
-import path from 'path';
-import { useState } from 'react';
-import { copyTextToClipboard } from "../../utils/copyUtils.js";
 import styles from "../../styles/Home.module.css";
 
-export async function getStaticProps() {
-    const filePath = path.join(process.cwd(), 'public', 'code','ul_ul','code.txt');
-    const codeContent = fs.readFileSync(filePath, 'utf8');
-
-    return {
-        props: {
-            codeContent
-        }
-    };
-}
-
-export default function Ul_ul({codeContent}){
-    const [copyStatus, setCopyStatus] = useState('コピー');
-
-    const copyButton = async () => {
-        const status = await copyTextToClipboard(codeContent);
-        setCopyStatus(status);
-        setTimeout(() => {
-            setCopyStatus('コピー');
-        }, 1000);
-    };
-
+export default function Ul_ul(){
     return (
         <main className ={styles.main}>
             <h1>&lt;ul&gt;&lt;ul&gt;のページ</h1>
@@ -70,11 +45,6 @@ export default function Ul_ul({codeContent}){
                 箇条書き3個目「■」四角形（type属性 : &quot;square&ldquo;）
                 </li>
             </ul>
-            </div>
-            <br />
-            <button onClick={copyButton}>{copyStatus}</button>
-            <div className={styles.iframeContainer}>
-                <iframe className={styles.web} src="code/ul_ul/code.html" />
             </div>
             <div className ={styles.description}>
                 <a href="/">

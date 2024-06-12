@@ -1,0 +1,98 @@
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../code.css">
+    <title>Code</title>
+</head>
+
+<body>
+    <div class="header">
+        <h2>このページのコード</h2>
+    </div>
+        <div>
+            <pre class="pre"><code>
+import styles from "../../styles/Home.module.css";
+export default function Table_table(){
+    return (
+        &lt;main className ={styles.main}&gt;
+            &lt;h1&gt;&amp;lt;table&amp;gt;&amp;lt;table&amp;gt;のページ&lt;/h1&gt;
+            &lt;p&gt;tableタグは、表を作成する際に使用しtrタグ、thタグ、tdタグと併せて使用する。
+            &lt;/p&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;strong&gt;tbody&lt;/strong&gt;
+                    &lt;p&gt;
+                        tbody要素は、HTMLの表（table）内の本文部分を定義する。
+                    &lt;/p&gt;
+                &lt;/li&gt;
+                &lt;br /&gt;
+                &lt;li&gt;&lt;strong&gt;thead&lt;/strong&gt;
+                    &lt;p&gt;
+                        thead要素は、表の見出し部分（表のヘッダー）を定義するために使用される。
+                        &lt;br /&gt;
+                        通常、表の最初の行に配置され、列の見出しを示す。
+                    &lt;/p&gt;
+                &lt;/li&gt;
+                &lt;br /&gt;
+                &lt;li&gt;&lt;strong&gt;trタグ&lt;/strong&gt;
+                    &lt;p&gt;
+                        「tr」は「table row（テーブルロー）」の略で、表なかの行を作成する際に使用する。
+                        &lt;br /&gt;
+                        trタグを使用した分だけ、行の数が追加されていく。
+                    &lt;/p&gt;
+                &lt;/li&gt;
+                &lt;br /&gt;
+                &lt;li&gt;&lt;strong&gt;thタグ&lt;/strong&gt;
+                    &lt;p&gt;
+                        「th」タグ「table header（テーブルヘッダー）」の略で、表のなかの見出しのセルとして使用する。
+                    &lt;/p&gt;
+                &lt;/li&gt;
+                &lt;br /&gt;
+                &lt;li&gt;&lt;strong&gt;tdタグ&lt;/strong&gt;
+                    &lt;p&gt;
+                        「td」は「table data（テーブルデータ）」の略で、表のなかの見出し（th）に対するデータのセルとして使用する。
+                    &lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;div&gt;
+            &lt;br /&gt;
+            &lt;table&gt;
+                &lt;thead&gt;
+                    &lt;tr&gt;
+                        &lt;th&gt;商品名&lt;/th&gt;
+                        &lt;th&gt;価格&lt;/th&gt;
+                        &lt;th&gt;在庫&lt;/th&gt;
+                    &lt;/tr&gt;
+                &lt;/thead&gt;
+                &lt;tbody&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;りんご&lt;/td&gt;
+                        &lt;td&gt;100円&lt;/td&gt;
+                        &lt;td&gt;10個&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;バナナ&lt;/td&gt;
+                        &lt;td&gt;80円&lt;/td&gt;
+                        &lt;td&gt;15個&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;オレンジ&lt;/td&gt;
+                        &lt;td&gt;120円&lt;/td&gt;
+                        &lt;td&gt;8個&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/tbody&gt;
+            &lt;/table&gt;
+            &lt;/div&gt;
+            &lt;div className ={styles.description}&gt;
+                &lt;a href=&quot;/&quot;&gt;
+                [ホームへ戻る]
+                &lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/main&gt;    
+    );
+}
+                    </code></pre>
+        </div>
+</body>
+
+</html>
