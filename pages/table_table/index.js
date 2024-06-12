@@ -5,7 +5,7 @@ import { copyTextToClipboard } from "../../utils/copyUtils.js";
 import styles from "../../styles/Home.module.css";
 
 export async function getStaticProps() {
-    const filePath = path.join(process.cwd(), 'public', 'code','table_table','code.txt');
+    const filePath = path.join(process.cwd(), 'public', 'code', 'table_table', 'code.txt');
     const codeContent = fs.readFileSync(filePath, 'utf8');
 
     return {
@@ -14,7 +14,7 @@ export async function getStaticProps() {
         }
     };
 }
-export default function Table_table({codeContent}){
+export default function Table_table({ codeContent }) {
     const [copyStatus, setCopyStatus] = useState('コピー');
 
     const copyButton = async () => {
@@ -26,7 +26,7 @@ export default function Table_table({codeContent}){
     };
 
     return (
-        <main className ={styles.main}>
+        <main className={styles.main}>
             <h1>&lt;table&gt;&lt;table&gt;のページ</h1>
             <p>tableタグは、表を作成する際に使用しtrタグ、thタグ、tdタグと併せて使用する。
             </p>
@@ -66,44 +66,44 @@ export default function Table_table({codeContent}){
                 </li>
             </ul>
             <div>
-            <br />
-            <table className={styles.table}>
-                <thead>
-                    <tr>
-                        <th>商品名</th>
-                        <th>価格</th>
-                        <th>在庫</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>りんご</td>
-                        <td>100円</td>
-                        <td>10個</td>
-                    </tr>
-                    <tr>
-                        <td>バナナ</td>
-                        <td>80円</td>
-                        <td>15個</td>
-                    </tr>
-                    <tr>
-                        <td>オレンジ</td>
-                        <td>120円</td>
-                        <td>8個</td>
-                    </tr>
-                </tbody>
-            </table>
+                <br />
+                <table className={styles.table}>
+                    <thead>
+                        <tr>
+                            <th>商品名</th>
+                            <th>価格</th>
+                            <th>在庫</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>りんご</td>
+                            <td>100円</td>
+                            <td>10個</td>
+                        </tr>
+                        <tr>
+                            <td>バナナ</td>
+                            <td>80円</td>
+                            <td>15個</td>
+                        </tr>
+                        <tr>
+                            <td>オレンジ</td>
+                            <td>120円</td>
+                            <td>8個</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
             <br />
             <button onClick={copyButton}>{copyStatus}</button>
             <div className={styles.iframeContainer}>
                 <iframe className={styles.web} src="code/table_table/code.html" />
             </div>
-            <div className ={styles.description}>
-                <a href="/">
-                [ホームへ戻る]
-                </a>
+            <div className={styles.description}>
+                <Link href="/about">
+                    <a>[ホームへ戻る]</a>
+                </Link>
             </div>
-        </main>    
+        </main>
     );
 }

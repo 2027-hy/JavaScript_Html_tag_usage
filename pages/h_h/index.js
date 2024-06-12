@@ -5,7 +5,7 @@ import { copyTextToClipboard } from "../../utils/copyUtils.js";
 import styles from "../../styles/Home.module.css";
 
 export async function getStaticProps() {
-    const filePath = path.join(process.cwd(), 'public', 'code','h_h','code.txt');
+    const filePath = path.join(process.cwd(), 'public', 'code', 'h_h', 'code.txt');
     const codeContent = fs.readFileSync(filePath, 'utf8');
 
     return {
@@ -15,7 +15,7 @@ export async function getStaticProps() {
     };
 }
 
-export default function H_h({codeContent}){
+export default function H_h({ codeContent }) {
     const [copyStatus, setCopyStatus] = useState('コピー');
 
     const copyButton = async () => {
@@ -26,7 +26,7 @@ export default function H_h({codeContent}){
         }, 1000);
     };
     return (
-        <main className ={styles.main}>
+        <main className={styles.main}>
             <h1>h1の見出し</h1>
             <h2>h2の見出し</h2>
             <h3>h3の見出し</h3>
@@ -38,11 +38,11 @@ export default function H_h({codeContent}){
             <div className={styles.iframeContainer}>
                 <iframe className={styles.web} src="code/h_h/code.html" />
             </div>
-            <div className ={styles.description}>
-                <a href="/">
-                [ホームへ戻る]
-                </a>
+            <div className={styles.description}>
+                <Link href="/">
+                    <a>[ホームへ戻る]</a>
+                </Link>
             </div>
-        </main>    
+        </main>
     );
 }

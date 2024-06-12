@@ -5,7 +5,7 @@ import { copyTextToClipboard } from "../../utils/copyUtils.js";
 import styles from "../../styles/Home.module.css";
 
 export async function getStaticProps() {
-    const filePath = path.join(process.cwd(), 'public', 'code','ol_ol','code.txt');
+    const filePath = path.join(process.cwd(), 'public', 'code', 'ol_ol', 'code.txt');
     const codeContent = fs.readFileSync(filePath, 'utf8');
 
     return {
@@ -14,7 +14,7 @@ export async function getStaticProps() {
         }
     };
 }
-export default function Ol_ol({codeContent}) {
+export default function Ol_ol({ codeContent }) {
     const [copyStatus, setCopyStatus] = useState('コピー');
 
     const copyButton = async () => {
@@ -110,9 +110,9 @@ export default function Ol_ol({codeContent}) {
                 <iframe className={styles.web} src="code/ol_ol/code.html" />
             </div>
             <div className={styles.description}>
-                <a href="/">
-                    [ホームへ戻る]
-                </a>
+                <Link href="/">
+                    <a>[ホームへ戻る]</a>
+                </Link>
             </div>
         </main>
     );
