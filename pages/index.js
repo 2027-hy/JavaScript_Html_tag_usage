@@ -18,8 +18,8 @@ export default function List(){
           </li>
 
           <li>
-            <Link href="/a_a" className ={styles.link}>
-            &lt;a&gt;&lt;/a&gt;のページ
+            <Link href="/link_link" className ={styles.link}>
+            &lt;Link&gt;&lt;/Link&gt;のページ
             </Link>
           </li>
 

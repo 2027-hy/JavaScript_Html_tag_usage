@@ -1,9 +1,9 @@
 import styles from "../../styles/Home.module.css";
 
-export default function a_a() {
+export default function Link_link() {
     return (
         <main className={styles.main}>
-            <h1>&lt;a&gt;&lt;a&gt;のページ</h1>
+            <h1>&lt;Link&gt;&lt;Link&gt;のページ</h1>
             <p>「a」はハイパーリンク（Hyperlink）を作成するための要素である。
                 <br />
                 ユーザーがクリックすると他の場所に移動したり、新しいページを開いたりするためのリンクを定義する。
@@ -21,9 +21,9 @@ export default function a_a() {
             </div>
 
             <div className={styles.description}>
-                <a href="/">
+                <Link href="/">
                     [ホームへ戻る]
-                </a>
+                </Link>
             </div>
         </main>
     );

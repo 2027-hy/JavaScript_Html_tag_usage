@@ -10,9 +10,9 @@ export default function h_h(){
             <h5>h5の見出し</h5>
             <h6>h6の見出し</h6>
             <div className ={styles.description}>
-                <a href="/">
+                <Link href="/">
                 [ホームへ戻る]
-                </a>
+                </Link>
             </div>
         </main>    
     );

@@ -47,9 +47,9 @@ export default function Ul_ul(){
             </ul>
             </div>
             <div className ={styles.description}>
-                <a href="/">
-                [ホームへ戻る]
-                </a>
+                <Link href="/">
+                    [ホームへ戻る]
+                </Link>
             </div>
         </main>    
     );

@@ -71,9 +71,9 @@ export default function Table_table(){
             </table>
             </div>
             <div className ={styles.description}>
-                <a href="/">
-                [ホームへ戻る]
-                </a>
+                <Link href="/">
+                    [ホームへ戻る]
+                </Link>
             </div>
         </main>    
     );

@@ -6,7 +6,7 @@ import styles from "../../styles/Home.module.css";
 import Link from 'next/link';
 
 export async function getStaticProps() {
-    const filePath = path.join(process.cwd(), 'public', 'code', 'a_a', 'code.txt');
+    const filePath = path.join(process.cwd(), 'public', 'code', 'link_link', 'code.txt');
     const codeContent = fs.readFileSync(filePath, 'utf8');
 
     return {
@@ -16,7 +16,7 @@ export async function getStaticProps() {
     };
 }
 
-export default function A_a({ codeContent }) {
+export default function Link_link({ codeContent }) {
     const [copyStatus, setCopyStatus] = useState('コピー');
 
     const copyButton = async () => {
@@ -28,8 +28,8 @@ export default function A_a({ codeContent }) {
     };
     return (
         <main className={styles.main}>
-            <h1>&lt;a&gt;&lt;a&gt;のページ</h1>
-            <p>「a」はハイパーリンク（Hyperlink）を作成するための要素である。
+            <h1>&lt;Link&gt;&lt;Link&gt;のページ</h1>
+            <p>「Link」はハイパーリンク（Hyperlink）を作成するための要素である。
                 <br />
                 ユーザーがクリックすると他の場所に移動したり、新しいページを開いたりするためのリンクを定義する。
             </p>
@@ -42,7 +42,7 @@ export default function A_a({ codeContent }) {
             <br />
             <button onClick={copyButton}>{copyStatus}</button>
             <div className={styles.iframeContainer}>
-                <iframe className={styles.web} src="code/a_a/code.html" />
+                <iframe className={styles.web} src="code/link_link/code.html" />
             </div>
             <div className={styles.description}>
                 <Link href="/">

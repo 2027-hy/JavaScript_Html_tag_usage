@@ -82,9 +82,9 @@ export default function Ol_ol() {
                 </ol>
             </div>
             <div className={styles.description}>
-                <a href="/">
+                <Link href="/">
                     [ホームへ戻る]
-                </a>
+                </Link>
             </div>
         </main>
     );
