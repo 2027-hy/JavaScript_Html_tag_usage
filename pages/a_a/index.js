@@ -3,6 +3,7 @@ import path from 'path';
 import { useState } from 'react';
 import { copyTextToClipboard } from "../../utils/copyUtils.js";
 import styles from "../../styles/Home.module.css";
+import Link from 'next/link';
 
 export async function getStaticProps() {
     const filePath = path.join(process.cwd(), 'public', 'code', 'a_a', 'code.txt');
