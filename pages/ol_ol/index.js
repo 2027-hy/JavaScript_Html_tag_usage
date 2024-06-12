@@ -111,7 +111,7 @@ export default function Ol_ol({ codeContent }) {
                 <iframe className={styles.web} src="code/ol_ol/code.html" />
             </div>
             <div className={styles.description}>
-                <Link href="/">
+                <Link href="https://javasclipt-tag-usage.vercel.app">
                     [ホームへ戻る]
                 </Link>
             </div>

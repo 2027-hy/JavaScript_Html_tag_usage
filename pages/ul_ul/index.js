@@ -78,7 +78,7 @@ export default function Ul_ul({ codeContent }) {
                 <iframe className={styles.web} src="code/ul_ul/code.html" />
             </div>
             <div className={styles.description}>
-                <Link href="/">
+                <Link href="https://javasclipt-tag-usage.vercel.app">
                     [ホームへ戻る]
                 </Link>
             </div>
