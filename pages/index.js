@@ -6,7 +6,7 @@ export default function List(){
     <main className ={styles.main}>
       <div>
         <header>
-        <h1>Javascliptの練習</h1>
+        <h1>JavaScriptの練習</h1>
         <p>このサイトは&lt;&gt;タグの練習・まとめのために作成したサイトである。</p>
       </header>
       <nav>
