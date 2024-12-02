@@ -10,7 +10,7 @@ export default function List() {
         <h1>始めページ</h1>
         <p>本サイトでは、h,Link,ul,ol,tableタグをまとめる。</p>
       </header>
-      <body className={styles.body}>
+      <div className={styles.body}>
         <nav>
           <ul>
             <li>
@@ -40,7 +40,7 @@ export default function List() {
             </li>
           </ul>
         </nav>
-      </body>
+      </div>
     </main >
   );
 }
