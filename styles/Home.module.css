@@ -245,7 +245,62 @@
   .content {
     padding: 4rem;
   }
+  
+  .copy_btn_Layout {
+    font-size: 0.5rem;
+    padding: 0.8rem;
+    background-color: rgb(180, 255, 255);
+    border-radius: 5px;
+    font-weight: bold;
+  }
 
+  .main {
+    padding: 0.25rem;
+    padding-top: 7.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+  }
+
+  .main h1 {
+    font-size: 1.8rem;
+  }
+  
+  .body {
+    padding: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+  }
+
+  .header_Layout {
+    width: 100%;
+    text-align: center; /* 中央寄せ */
+    margin: 0 auto;     /* 横方向の余白を自動調整 */
+    padding: 1rem 0;    /* 上下に余白 */
+    background-color: rgb(150, 230, 255);
+    position: fixed;
+    top: 0;             /* 上部に固定 */
+    left: 0;
+    z-index: 1000;      /* 他の要素より上に表示されるように調整 */
+    height: 5.75rem;       /* ヘッダーの高さを指定 */
+  }
+  
+  .header_Layout h1 {
+    margin: 0;          /* デフォルトの余白を削除 */
+    font-size: 1.4rem;    /* 必要に応じてフォントサイズ調整 */
+  }
+  
+  .header_Layout p {
+    margin: 0.5rem 0 0; /* 上部に余白を設定 */
+    font-size: 0.7rem;    /* フォントサイズ */
+  }
   .grid {
     grid-template-columns: 1fr;
     margin-bottom: 120px;
