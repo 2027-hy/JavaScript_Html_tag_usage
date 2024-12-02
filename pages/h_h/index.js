@@ -35,15 +35,19 @@ export default function H_h({ codeContent }) {
             <h5>h5の見出し</h5>
             <h6>h6の見出し</h6>
             <br />
-            <button onClick={copyButton}>{copyStatus}</button>
-            <div className={styles.iframeContainer}>
-                <iframe className={styles.web} src="code/h_h/code.html" />
-            </div>
-            <div className={styles.description}>
-                <Link href="/">
-                    [ホームへ戻る]
-                </Link>
-            </div>
+            <body className={styles.body}>
+                <div className={styles.centered_button}>
+                    <button onClick={copyButton} className={styles.copy_btn_Layout}>{copyStatus}</button>
+                </div>
+                <div className={styles.iframeContainer}>
+                    <iframe className={styles.web} src="code/h_h/code.html" />
+                </div>
+                <div>
+                    <Link href="/" className={styles.link}>
+                        [ホームへ戻る]
+                    </Link>
+                </div>
+            </body>
         </main>
     );
 }

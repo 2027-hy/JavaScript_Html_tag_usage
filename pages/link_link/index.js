@@ -33,22 +33,26 @@ export default function Link_link({ codeContent }) {
                 <br />
                 ユーザーがクリックすると他の場所に移動したり、新しいページを開いたりするためのリンクを定義する。
             </p>
-            <Link href="https://www.google.com/?hl=ja" target="_blank" className={styles.link}>
-                Google
-            </Link>
-            <Link href="https://www.yahoo.co.jp/" target="_blank" className={styles.link}>
-                yahoo
-            </Link>
-            <br />
-            <button onClick={copyButton}>{copyStatus}</button>
-            <div className={styles.iframeContainer}>
-                <iframe className={styles.web} src="code/link_link/code.html" />
-            </div>
-            <div className={styles.description}>
-                <Link href="/">
-                    [ホームへ戻る]
+            <body className={styles.body}>
+                <Link href="https://www.google.com/?hl=ja" target="_blank" className={styles.link}>
+                    Google
                 </Link>
-            </div>
+                <Link href="https://www.yahoo.co.jp/" target="_blank" className={styles.link}>
+                    yahoo
+                </Link>
+                <br />
+                <div className={styles.centered_button}>
+                    <button onClick={copyButton} className={styles.copy_btn_Layout}>{copyStatus}</button>
+                </div>
+                <div className={styles.iframeContainer}>
+                    <iframe className={styles.web} src="code/link_link/code.html" />
+                </div>
+                <div>
+                    <Link href="/" className={styles.link}>
+                        [ホームへ戻る]
+                    </Link>
+                </div>
+            </body>
         </main>
     );
 }
