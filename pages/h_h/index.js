@@ -33,7 +33,7 @@ export default function H_h({ codeContent }) {
                 <p>「h」はタグを作成するための要素である。</p>
                 <p>数字が大きほど見出しの大きさは大きくなる。</p>
             </header>
-            <main className={styles.body}>
+            <div className={styles.body}>
                 <h1>h1の見出し</h1>
                 <h2>h2の見出し</h2>
                 <h3>h3の見出し</h3>
@@ -45,14 +45,15 @@ export default function H_h({ codeContent }) {
                     <button onClick={copyButton} className={styles.copy_btn_Layout}>{copyStatus}</button>
                 </div>
                 <div className={styles.iframeContainer}>
-                    <iframe className={styles.web} src="code/h_h/code.html" />
+                    <h2 className={styles.framed}>このページのコード</h2>
+                    <iframe className={styles.web} src="code/h_h/code.txt" />
                 </div>
                 <div>
                     <Link href="/" className={styles.link}>
                         [ホームへ戻る]
                     </Link>
                 </div>
-            </main>
+            </div>
         </main>
     );
 }

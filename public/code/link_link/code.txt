@@ -1,30 +1,28 @@
-import styles from "../../styles/Home.module.css";
-
-export default function Link_link() {
-    return (
         <main className={styles.main}>
             <h1>&lt;Link&gt;&lt;Link&gt;のページ</h1>
-            <p>「a」はハイパーリンク（Hyperlink）を作成するための要素である。
+            <p>「Link」はハイパーリンク（Hyperlink）を作成するための要素である。
                 <br />
                 ユーザーがクリックすると他の場所に移動したり、新しいページを開いたりするためのリンクを定義する。
             </p>
-            <a href="https://www.google.com/?hl=ja" target="_blank" className={styles.link}>
-                Google
-            </a>
-            <a href="https://www.yahoo.co.jp/" target="_blank" className={styles.link}>
-                yahoo
-            </a>
-            <br />
-            <button onclick="copyButton()">コピー</button>
-            <div className={styles.iframeContainer}>
-                <iframe className={styles.web} src="code/code.html" />
-            </div>
-
-            <div className={styles.description}>
-                <Link href="/">
-                    [ホームへ戻る]
+            <div className={styles.body}>
+                <Link href="https://www.google.com/?hl=ja" target="_blank" className={styles.link}>
+                    Googleのリンク
                 </Link>
+                <Link href="https://www.yahoo.co.jp/" target="_blank" className={styles.link}>
+                    yahooのリンク
+                </Link>
+                <br />
+                <div className={styles.centered_button}>
+                    <button onClick={copyButton} className={styles.copy_btn_Layout}>{copyStatus}</button>
+                </div>
+                <div className={styles.iframeContainer}>
+                    <h2 className={styles.framed}>このページのコード</h2>
+                    <iframe className={styles.web} src="code/link_link/code.txt" />
+                </div>
+                <div>
+                    <Link href="/" className={styles.link}>
+                        [ホームへ戻る]
+                    </Link>
+                </div>
             </div>
         </main>
-    );
-}

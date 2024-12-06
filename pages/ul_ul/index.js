@@ -78,7 +78,8 @@ export default function Ul_ul({ codeContent }) {
                     <button onClick={copyButton} className={styles.copy_btn_Layout}>{copyStatus}</button>
                 </div>
                 <div className={styles.iframeContainer}>
-                    <iframe className={styles.web} src="code/ul_ul/code.html" />
+                    <h2 className={styles.framed}>このページのコード</h2>
+                    <iframe className={styles.web} src="code/ul_ul/code.txt" />
                 </div>
                 <div >
                     <Link href="/" className={styles.link}>

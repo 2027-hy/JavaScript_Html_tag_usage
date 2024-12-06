@@ -113,7 +113,8 @@ export default function Ol_ol({ codeContent }) {
                     <button onClick={copyButton} className={styles.copy_btn_Layout}>{copyStatus}</button>
                 </div>
                 <div className={styles.iframeContainer}>
-                    <iframe className={styles.web} src="code/ol_ol/code.html" />
+                    <h2 className={styles.framed}>このページのコード</h2>
+                    <iframe className={styles.web} src="code/ol_ol/code.txt" />
                 </div>
                 <div>
                     <Link href="/" className={styles.link}>
