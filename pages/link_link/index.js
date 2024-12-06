@@ -33,12 +33,12 @@ export default function Link_link({ codeContent }) {
                 <br />
                 ユーザーがクリックすると他の場所に移動したり、新しいページを開いたりするためのリンクを定義する。
             </p>
-            <body className={styles.body}>
+            <div className={styles.body}>
                 <Link href="https://www.google.com/?hl=ja" target="_blank" className={styles.link}>
-                    Google
+                    Googleのリンク
                 </Link>
                 <Link href="https://www.yahoo.co.jp/" target="_blank" className={styles.link}>
-                    yahoo
+                    yahooのリンク
                 </Link>
                 <br />
                 <div className={styles.centered_button}>
@@ -52,7 +52,7 @@ export default function Link_link({ codeContent }) {
                         [ホームへ戻る]
                     </Link>
                 </div>
-            </body>
+            </div>
         </main>
     );
 }

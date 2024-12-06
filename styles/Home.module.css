@@ -9,6 +9,7 @@
   min-height: 100vh;
   background-color: rgb(255, 255, 255);
   text-align: left;
+  color: rgb(0, 0, 0);
 }
 
 .body {
@@ -19,6 +20,8 @@
   min-height: 100vh;
   background-color: rgb(255, 255, 255);
   text-align: left;
+  color: rgb(0, 0, 0);
+  
 }
 
 .description {
@@ -62,6 +65,7 @@
   background-color: rgb(180, 255, 255);
   border-radius: 5px;
   font-weight: bold;
+  color: rgb(0, 0, 0);
 }
 
 .code {
@@ -101,6 +105,7 @@
   left: 0;
   z-index: 1000;      /* 他の要素より上に表示されるように調整 */
   height: 7rem;       /* ヘッダーの高さを指定 */
+  color: rgb(0, 0, 0);
 }
 
 .header_Layout h1 {

@@ -5,7 +5,6 @@ import Link from "next/link";
 export default function List() {
   return (
     <main className={styles.main}>
-
       <header>
         <h1>始めページ</h1>
         <p>本サイトでは、h,Link,ul,ol,tableタグをまとめる。</p>

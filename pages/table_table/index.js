@@ -28,10 +28,12 @@ export default function Table_table({ codeContent }) {
 
     return (
         <main className={styles.main}>
-            <h1>&lt;table&gt;&lt;table&gt;のページ</h1>
-            <p>tableタグは、表を作成する際に使用しtrタグ、thタグ、tdタグと併せて使用する。
-            </p>
-            <body className={styles.body}>
+            <header>
+                <h1>&lt;table&gt;&lt;table&gt;のページ</h1>
+                <p>tableタグは、表を作成する際に使用しtrタグ、thタグ、tdタグと併せて使用する。
+                </p>
+            </header>
+            <div className={styles.body}>
                 <ul>
                     <li><strong>tbody</strong>
                         <p>
@@ -108,7 +110,7 @@ export default function Table_table({ codeContent }) {
                         [ホームへ戻る]
                     </Link>
                 </div>
-            </body>
+            </div>
         </main>
     );
 }

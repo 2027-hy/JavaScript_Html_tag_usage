@@ -28,14 +28,19 @@ export default function H_h({ codeContent }) {
     };
     return (
         <main className={styles.main}>
-            <h1>h1の見出し</h1>
-            <h2>h2の見出し</h2>
-            <h3>h3の見出し</h3>
-            <h4>h4の見出し</h4>
-            <h5>h5の見出し</h5>
-            <h6>h6の見出し</h6>
-            <br />
-            <body className={styles.body}>
+            <header>
+                <h1>&lt;h&gt;&lt;h&gt;のページ</h1>
+                <p>「h」はタグを作成するための要素である。</p>
+                <p>数字が大きほど見出しの大きさは大きくなる。</p>
+            </header>
+            <main className={styles.body}>
+                <h1>h1の見出し</h1>
+                <h2>h2の見出し</h2>
+                <h3>h3の見出し</h3>
+                <h4>h4の見出し</h4>
+                <h5>h5の見出し</h5>
+                <h6>h6の見出し</h6>
+                <br />
                 <div className={styles.centered_button}>
                     <button onClick={copyButton} className={styles.copy_btn_Layout}>{copyStatus}</button>
                 </div>
@@ -47,7 +52,7 @@ export default function H_h({ codeContent }) {
                         [ホームへ戻る]
                     </Link>
                 </div>
-            </body>
+            </main>
         </main>
     );
 }

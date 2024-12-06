@@ -33,7 +33,7 @@ export default function Ol_ol({ codeContent }) {
                     type属性を指定することで、数字やアルファベットなどが使用されて、順序を表現できる。
                 </p>
             </header>
-            <body className={styles.body}>
+            <div className={styles.body}>
                 <div>
                     <br />
                     <ol type="1">
@@ -120,7 +120,7 @@ export default function Ol_ol({ codeContent }) {
                         [ホームへ戻る]
                     </Link>
                 </div>
-            </body>
+            </div>
         </main>
     );
 }

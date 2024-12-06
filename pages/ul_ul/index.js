@@ -34,7 +34,7 @@ export default function Ul_ul({ codeContent }) {
                 <br></br>
                 type属性を指定することで、各項目は円形または四角形のマークでマークされる。
             </p>
-            <body className={styles.body}>
+            <div className={styles.body}>
                 <div>
                     <br />
                     <ul>
@@ -85,7 +85,7 @@ export default function Ul_ul({ codeContent }) {
                         [ホームへ戻る]
                     </Link>
                 </div>
-            </body>
+            </div>
         </main>
     );
 }
